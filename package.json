@@ -8,7 +8,10 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.0",
     "firebase": "^9.9.1",
+    "gray-matter": "^4.0.3",
     "html-webpack-plugin": "^5.5.0",
+    "next": "^12.2.5",
+    "next-mdx-remote": "^4.1.0",
     "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -16,6 +19,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "dev": "next dev",
     "start": "webpack serve --mode development",
     "watch": "webpack --watch",
     "build": "webpack --mode production",
